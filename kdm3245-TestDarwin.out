@@ -1,0 +1,91 @@
+==21601== Memcheck, a memory error detector
+==21601== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==21601== Using Valgrind-3.10.1 and LibVEX; rerun with -h for copyright info
+==21601== Command: ./TestDarwin
+==21601==
+Running main() from gtest_main.cc
+[==========] Running 31 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 31 tests from DarwinFixture
+[ RUN      ] DarwinFixture.test
+[       OK ] DarwinFixture.test (41 ms)
+[ RUN      ] DarwinFixture.control1
+[       OK ] DarwinFixture.control1 (2 ms)
+[ RUN      ] DarwinFixture.control2
+[       OK ] DarwinFixture.control2 (3 ms)
+[ RUN      ] DarwinFixture.control3
+[       OK ] DarwinFixture.control3 (2 ms)
+[ RUN      ] DarwinFixture.op1
+[       OK ] DarwinFixture.op1 (4 ms)
+[ RUN      ] DarwinFixture.op2
+[       OK ] DarwinFixture.op2 (3 ms)
+[ RUN      ] DarwinFixture.op3
+[       OK ] DarwinFixture.op3 (13 ms)
+[ RUN      ] DarwinFixture.add_instr1
+[       OK ] DarwinFixture.add_instr1 (7 ms)
+[ RUN      ] DarwinFixture.add_instr2
+[       OK ] DarwinFixture.add_instr2 (8 ms)
+[ RUN      ] DarwinFixture.add_instr3
+[       OK ] DarwinFixture.add_instr3 (3 ms)
+[ RUN      ] DarwinFixture.retrieve1
+[       OK ] DarwinFixture.retrieve1 (5 ms)
+[ RUN      ] DarwinFixture.retrieve2
+[       OK ] DarwinFixture.retrieve2 (49 ms)
+[ RUN      ] DarwinFixture.retrieve3
+[       OK ] DarwinFixture.retrieve3 (4 ms)
+[ RUN      ] DarwinFixture.print1
+[       OK ] DarwinFixture.print1 (7 ms)
+[ RUN      ] DarwinFixture.print2
+[       OK ] DarwinFixture.print2 (3 ms)
+[ RUN      ] DarwinFixture.print3
+[       OK ] DarwinFixture.print3 (3 ms)
+[ RUN      ] DarwinFixture.infect1
+[       OK ] DarwinFixture.infect1 (11 ms)
+[ RUN      ] DarwinFixture.infect2
+[       OK ] DarwinFixture.infect2 (3 ms)
+[ RUN      ] DarwinFixture.infect3
+[       OK ] DarwinFixture.infect3 (5 ms)
+[ RUN      ] DarwinFixture.request1
+[       OK ] DarwinFixture.request1 (3 ms)
+[ RUN      ] DarwinFixture.request2
+[       OK ] DarwinFixture.request2 (5 ms)
+[ RUN      ] DarwinFixture.request3
+[       OK ] DarwinFixture.request3 (2 ms)
+[ RUN      ] DarwinFixture.pc1
+[       OK ] DarwinFixture.pc1 (3 ms)
+[ RUN      ] DarwinFixture.pc2
+[       OK ] DarwinFixture.pc2 (4 ms)
+[ RUN      ] DarwinFixture.pc3
+[       OK ] DarwinFixture.pc3 (3 ms)
+[ RUN      ] DarwinFixture.add1
+[       OK ] DarwinFixture.add1 (10 ms)
+[ RUN      ] DarwinFixture.add2
+[       OK ] DarwinFixture.add2 (3 ms)
+[ RUN      ] DarwinFixture.add3
+[       OK ] DarwinFixture.add3 (4 ms)
+[ RUN      ] DarwinFixture.board1
+[       OK ] DarwinFixture.board1 (9 ms)
+[ RUN      ] DarwinFixture.board2
+[       OK ] DarwinFixture.board2 (5 ms)
+[ RUN      ] DarwinFixture.board3
+[       OK ] DarwinFixture.board3 (3 ms)
+[----------] 31 tests from DarwinFixture (241 ms total)
+
+[----------] Global test environment tear-down
+[==========] 31 tests from 1 test case ran. (274 ms total)
+[  PASSED  ] 31 tests.
+==21601==
+==21601== HEAP SUMMARY:
+==21601==     in use at exit: 0 bytes in 0 blocks
+==21601==   total heap usage: 738 allocs, 738 frees, 103,553 bytes allocated
+==21601==
+==21601== All heap blocks were freed -- no leaks are possible
+==21601==
+==21601== For counts of detected and suppressed errors, rerun with: -v
+==21601== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+File 'Darwin.c++'
+Lines executed:46.91% of 162
+Branches executed:31.25% of 288
+Taken at least once:19.79% of 288
+Calls executed:19.26% of 296
+Creating 'Darwin.c++.gcov'
