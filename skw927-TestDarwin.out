@@ -1,0 +1,171 @@
+Running main() from gtest_main.cc
+[==========] Running 72 tests from 7 test cases.
+[----------] Global test environment set-up.
+[----------] 9 tests from ParseNameFixture
+[ RUN      ] ParseNameFixture.test0
+[       OK ] ParseNameFixture.test0 (1 ms)
+[ RUN      ] ParseNameFixture.test1
+[       OK ] ParseNameFixture.test1 (0 ms)
+[ RUN      ] ParseNameFixture.test2
+[       OK ] ParseNameFixture.test2 (0 ms)
+[ RUN      ] ParseNameFixture.test3
+[       OK ] ParseNameFixture.test3 (0 ms)
+[ RUN      ] ParseNameFixture.test4
+[       OK ] ParseNameFixture.test4 (0 ms)
+[ RUN      ] ParseNameFixture.test5
+[       OK ] ParseNameFixture.test5 (0 ms)
+[ RUN      ] ParseNameFixture.test6
+[       OK ] ParseNameFixture.test6 (0 ms)
+[ RUN      ] ParseNameFixture.test7
+[       OK ] ParseNameFixture.test7 (0 ms)
+[ RUN      ] ParseNameFixture.test8
+[       OK ] ParseNameFixture.test8 (0 ms)
+[----------] 9 tests from ParseNameFixture (1 ms total)
+
+[----------] 9 tests from FactoryFixture
+[ RUN      ] FactoryFixture.test0
+[       OK ] FactoryFixture.test0 (0 ms)
+[ RUN      ] FactoryFixture.test1
+[       OK ] FactoryFixture.test1 (0 ms)
+[ RUN      ] FactoryFixture.test2
+[       OK ] FactoryFixture.test2 (0 ms)
+[ RUN      ] FactoryFixture.test3
+[       OK ] FactoryFixture.test3 (0 ms)
+[ RUN      ] FactoryFixture.test4
+[       OK ] FactoryFixture.test4 (0 ms)
+[ RUN      ] FactoryFixture.test5
+[       OK ] FactoryFixture.test5 (0 ms)
+[ RUN      ] FactoryFixture.test6
+[       OK ] FactoryFixture.test6 (0 ms)
+[ RUN      ] FactoryFixture.test7
+[       OK ] FactoryFixture.test7 (0 ms)
+[ RUN      ] FactoryFixture.test8
+[       OK ] FactoryFixture.test8 (0 ms)
+[----------] 9 tests from FactoryFixture (0 ms total)
+
+[----------] 37 tests from InstructionFixture
+[ RUN      ] InstructionFixture.type0
+[       OK ] InstructionFixture.type0 (0 ms)
+[ RUN      ] InstructionFixture.type1
+[       OK ] InstructionFixture.type1 (0 ms)
+[ RUN      ] InstructionFixture.type2
+[       OK ] InstructionFixture.type2 (0 ms)
+[ RUN      ] InstructionFixture.type3
+[       OK ] InstructionFixture.type3 (0 ms)
+[ RUN      ] InstructionFixture.type4
+[       OK ] InstructionFixture.type4 (0 ms)
+[ RUN      ] InstructionFixture.type5
+[       OK ] InstructionFixture.type5 (0 ms)
+[ RUN      ] InstructionFixture.type6
+[       OK ] InstructionFixture.type6 (0 ms)
+[ RUN      ] InstructionFixture.type7
+[       OK ] InstructionFixture.type7 (0 ms)
+[ RUN      ] InstructionFixture.type8
+[       OK ] InstructionFixture.type8 (0 ms)
+[ RUN      ] InstructionFixture.hop0
+[       OK ] InstructionFixture.hop0 (0 ms)
+[ RUN      ] InstructionFixture.hop1
+[       OK ] InstructionFixture.hop1 (0 ms)
+[ RUN      ] InstructionFixture.hop2
+[       OK ] InstructionFixture.hop2 (0 ms)
+[ RUN      ] InstructionFixture.hop3
+[       OK ] InstructionFixture.hop3 (0 ms)
+[ RUN      ] InstructionFixture.go0
+[       OK ] InstructionFixture.go0 (0 ms)
+[ RUN      ] InstructionFixture.go1
+[       OK ] InstructionFixture.go1 (0 ms)
+[ RUN      ] InstructionFixture.left0
+[       OK ] InstructionFixture.left0 (0 ms)
+[ RUN      ] InstructionFixture.left1
+[       OK ] InstructionFixture.left1 (0 ms)
+[ RUN      ] InstructionFixture.left2
+[       OK ] InstructionFixture.left2 (0 ms)
+[ RUN      ] InstructionFixture.left3
+[       OK ] InstructionFixture.left3 (0 ms)
+[ RUN      ] InstructionFixture.right0
+[       OK ] InstructionFixture.right0 (0 ms)
+[ RUN      ] InstructionFixture.right1
+[       OK ] InstructionFixture.right1 (0 ms)
+[ RUN      ] InstructionFixture.right2
+[       OK ] InstructionFixture.right2 (0 ms)
+[ RUN      ] InstructionFixture.right3
+[       OK ] InstructionFixture.right3 (0 ms)
+[ RUN      ] InstructionFixture.infect
+[       OK ] InstructionFixture.infect (0 ms)
+[ RUN      ] InstructionFixture.if_empty0
+[       OK ] InstructionFixture.if_empty0 (0 ms)
+[ RUN      ] InstructionFixture.if_empty1
+[       OK ] InstructionFixture.if_empty1 (0 ms)
+[ RUN      ] InstructionFixture.if_empty2
+[       OK ] InstructionFixture.if_empty2 (0 ms)
+[ RUN      ] InstructionFixture.if_empty3
+[       OK ] InstructionFixture.if_empty3 (1 ms)
+[ RUN      ] InstructionFixture.if_wall0
+[       OK ] InstructionFixture.if_wall0 (0 ms)
+[ RUN      ] InstructionFixture.if_wall1
+[       OK ] InstructionFixture.if_wall1 (0 ms)
+[ RUN      ] InstructionFixture.if_wall2
+[       OK ] InstructionFixture.if_wall2 (0 ms)
+[ RUN      ] InstructionFixture.if_wall3
+[       OK ] InstructionFixture.if_wall3 (0 ms)
+[ RUN      ] InstructionFixture.if_random0
+[       OK ] InstructionFixture.if_random0 (0 ms)
+[ RUN      ] InstructionFixture.if_random1
+[       OK ] InstructionFixture.if_random1 (0 ms)
+[ RUN      ] InstructionFixture.if_enemy
+[       OK ] InstructionFixture.if_enemy (0 ms)
+[ RUN      ] InstructionFixture.equals
+[       OK ] InstructionFixture.equals (0 ms)
+[ RUN      ] InstructionFixture.not_equals
+[       OK ] InstructionFixture.not_equals (0 ms)
+[----------] 37 tests from InstructionFixture (1 ms total)
+
+[----------] 4 tests from SpeciesFixture
+[ RUN      ] SpeciesFixture.index
+[       OK ] SpeciesFixture.index (0 ms)
+[ RUN      ] SpeciesFixture.equality
+[       OK ] SpeciesFixture.equality (0 ms)
+[ RUN      ] SpeciesFixture.inequality0
+[       OK ] SpeciesFixture.inequality0 (0 ms)
+[ RUN      ] SpeciesFixture.inequality1
+[       OK ] SpeciesFixture.inequality1 (0 ms)
+[----------] 4 tests from SpeciesFixture (0 ms total)
+
+[----------] 5 tests from CreatureFixture
+[ RUN      ] CreatureFixture.get_infected
+[       OK ] CreatureFixture.get_infected (0 ms)
+[ RUN      ] CreatureFixture.front0
+[       OK ] CreatureFixture.front0 (0 ms)
+[ RUN      ] CreatureFixture.front1
+[       OK ] CreatureFixture.front1 (0 ms)
+[ RUN      ] CreatureFixture.front2
+[       OK ] CreatureFixture.front2 (0 ms)
+[ RUN      ] CreatureFixture.front3
+[       OK ] CreatureFixture.front3 (0 ms)
+[----------] 5 tests from CreatureFixture (0 ms total)
+
+[----------] 7 tests from PrintFixture
+[ RUN      ] PrintFixture.species0
+[       OK ] PrintFixture.species0 (0 ms)
+[ RUN      ] PrintFixture.species1
+[       OK ] PrintFixture.species1 (0 ms)
+[ RUN      ] PrintFixture.creature0
+[       OK ] PrintFixture.creature0 (0 ms)
+[ RUN      ] PrintFixture.creature1
+[       OK ] PrintFixture.creature1 (0 ms)
+[ RUN      ] PrintFixture.darwin0
+[       OK ] PrintFixture.darwin0 (0 ms)
+[ RUN      ] PrintFixture.darwin1
+[       OK ] PrintFixture.darwin1 (0 ms)
+[ RUN      ] PrintFixture.darwin2
+[       OK ] PrintFixture.darwin2 (0 ms)
+[----------] 7 tests from PrintFixture (0 ms total)
+
+[----------] 1 test from DarwinFixture
+[ RUN      ] DarwinFixture.test
+[       OK ] DarwinFixture.test (0 ms)
+[----------] 1 test from DarwinFixture (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 72 tests from 7 test cases ran. (2 ms total)
+[  PASSED  ] 72 tests.
