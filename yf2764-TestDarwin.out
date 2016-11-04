@@ -1,0 +1,99 @@
+==18564== Memcheck, a memory error detector
+==18564== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==18564== Using Valgrind-3.10.1 and LibVEX; rerun with -h for copyright info
+==18564== Command: ./TestDarwin
+==18564== 
+Running main() from gtest_main.cc
+[==========] Running 32 tests from 3 test cases.
+[----------] Global test environment set-up.
+[----------] 10 tests from DarwinFixture
+[ RUN      ] DarwinFixture.go
+[       OK ] DarwinFixture.go (69 ms)
+[ RUN      ] DarwinFixture.go1
+[       OK ] DarwinFixture.go1 (17 ms)
+[ RUN      ] DarwinFixture.addCreature
+[       OK ] DarwinFixture.addCreature (4 ms)
+[ RUN      ] DarwinFixture.infect
+[       OK ] DarwinFixture.infect (11 ms)
+[ RUN      ] DarwinFixture.getPair
+[       OK ] DarwinFixture.getPair (2 ms)
+[ RUN      ] DarwinFixture.getPair1
+[       OK ] DarwinFixture.getPair1 (3 ms)
+[ RUN      ] DarwinFixture.getPair2
+[       OK ] DarwinFixture.getPair2 (3 ms)
+[ RUN      ] DarwinFixture.getIndex
+[       OK ] DarwinFixture.getIndex (3 ms)
+[ RUN      ] DarwinFixture.getIndex1
+[       OK ] DarwinFixture.getIndex1 (2 ms)
+[ RUN      ] DarwinFixture.getIndex2
+[       OK ] DarwinFixture.getIndex2 (2 ms)
+[----------] 10 tests from DarwinFixture (122 ms total)
+
+[----------] 12 tests from SpeciesFixture
+[ RUN      ] SpeciesFixture.addInstruction
+[       OK ] SpeciesFixture.addInstruction (3 ms)
+[ RUN      ] SpeciesFixture.addInstruction1
+[       OK ] SpeciesFixture.addInstruction1 (4 ms)
+[ RUN      ] SpeciesFixture.numInstruction
+[       OK ] SpeciesFixture.numInstruction (4 ms)
+[ RUN      ] SpeciesFixture.go
+[       OK ] SpeciesFixture.go (3 ms)
+[ RUN      ] SpeciesFixture.go1
+[       OK ] SpeciesFixture.go1 (3 ms)
+[ RUN      ] SpeciesFixture.go2
+[       OK ] SpeciesFixture.go2 (4 ms)
+[ RUN      ] SpeciesFixture.empty
+[       OK ] SpeciesFixture.empty (5 ms)
+[ RUN      ] SpeciesFixture.enemy
+[       OK ] SpeciesFixture.enemy (5 ms)
+[ RUN      ] SpeciesFixture.enemy1
+[       OK ] SpeciesFixture.enemy1 (4 ms)
+[ RUN      ] SpeciesFixture.enemy2
+[       OK ] SpeciesFixture.enemy2 (5 ms)
+[ RUN      ] SpeciesFixture.print
+[       OK ] SpeciesFixture.print (3 ms)
+[ RUN      ] SpeciesFixture.print1
+[       OK ] SpeciesFixture.print1 (2 ms)
+[----------] 12 tests from SpeciesFixture (46 ms total)
+
+[----------] 10 tests from CreatureFixture
+[ RUN      ] CreatureFixture.go
+[       OK ] CreatureFixture.go (4 ms)
+[ RUN      ] CreatureFixture.go1
+[       OK ] CreatureFixture.go1 (4 ms)
+[ RUN      ] CreatureFixture.go2
+[       OK ] CreatureFixture.go2 (4 ms)
+[ RUN      ] CreatureFixture.go3
+[       OK ] CreatureFixture.go3 (4 ms)
+[ RUN      ] CreatureFixture.left
+[       OK ] CreatureFixture.left (4 ms)
+[ RUN      ] CreatureFixture.right
+[       OK ] CreatureFixture.right (4 ms)
+[ RUN      ] CreatureFixture.inFront
+[       OK ] CreatureFixture.inFront (3 ms)
+[ RUN      ] CreatureFixture.inFront1
+[       OK ] CreatureFixture.inFront1 (4 ms)
+[ RUN      ] CreatureFixture.inFront2
+[       OK ] CreatureFixture.inFront2 (3 ms)
+[ RUN      ] CreatureFixture.beInfected
+[       OK ] CreatureFixture.beInfected (4 ms)
+[----------] 10 tests from CreatureFixture (38 ms total)
+
+[----------] Global test environment tear-down
+[==========] 32 tests from 3 test cases ran. (236 ms total)
+[  PASSED  ] 32 tests.
+==18564== 
+==18564== HEAP SUMMARY:
+==18564==     in use at exit: 0 bytes in 0 blocks
+==18564==   total heap usage: 966 allocs, 966 frees, 105,741 bytes allocated
+==18564== 
+==18564== All heap blocks were freed -- no leaks are possible
+==18564== 
+==18564== For counts of detected and suppressed errors, rerun with: -v
+==18564== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+File 'Darwin.c++'
+Lines executed:76.28% of 156
+Branches executed:79.55% of 176
+Taken at least once:52.27% of 176
+Calls executed:65.08% of 126
+Creating 'Darwin.c++.gcov'
