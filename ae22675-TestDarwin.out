@@ -1,0 +1,128 @@
+==4798== Memcheck, a memory error detector
+==4798== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==4798== Using Valgrind-3.10.0 and LibVEX; rerun with -h for copyright info
+==4798== Command: ./TestDarwin
+==4798== 
+Running main() from gtest_main.cc
+[==========] Running 41 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 41 tests from DarwinFixture
+[ RUN      ] DarwinFixture.darwin_constructor
+[       OK ] DarwinFixture.darwin_constructor (21 ms)
+[ RUN      ] DarwinFixture.darwin_add1
+[       OK ] DarwinFixture.darwin_add1 (11 ms)
+[ RUN      ] DarwinFixture.darwin_add2
+[       OK ] DarwinFixture.darwin_add2 (5 ms)
+[ RUN      ] DarwinFixture.add3
+[       OK ] DarwinFixture.add3 (5 ms)
+[ RUN      ] DarwinFixture.darwin_point_is_valid_1
+[       OK ] DarwinFixture.darwin_point_is_valid_1 (3 ms)
+[ RUN      ] DarwinFixture.darwin_point_is_valid_2
+[       OK ] DarwinFixture.darwin_point_is_valid_2 (2 ms)
+[ RUN      ] DarwinFixture.darwin_point_is_valid_3
+[       OK ] DarwinFixture.darwin_point_is_valid_3 (2 ms)
+[ RUN      ] DarwinFixture.darwin_point_is_valid_4
+[       OK ] DarwinFixture.darwin_point_is_valid_4 (2 ms)
+[ RUN      ] DarwinFixture.darwin_point_is_valid_5
+[       OK ] DarwinFixture.darwin_point_is_valid_5 (2 ms)
+[ RUN      ] DarwinFixture.darwin_run_darwin_1
+[       OK ] DarwinFixture.darwin_run_darwin_1 (43 ms)
+[ RUN      ] DarwinFixture.darwin_run_darwin_2
+[       OK ] DarwinFixture.darwin_run_darwin_2 (11 ms)
+[ RUN      ] DarwinFixture.darwin_run_darwin_3
+[       OK ] DarwinFixture.darwin_run_darwin_3 (15 ms)
+[ RUN      ] DarwinFixture.darwin_run_darwin_4
+[       OK ] DarwinFixture.darwin_run_darwin_4 (27 ms)
+[ RUN      ] DarwinFixture.creature_in_front_1
+[       OK ] DarwinFixture.creature_in_front_1 (5 ms)
+[ RUN      ] DarwinFixture.creature_in_front_2
+[       OK ] DarwinFixture.creature_in_front_2 (6 ms)
+[ RUN      ] DarwinFixture.creature_in_front_3
+[       OK ] DarwinFixture.creature_in_front_3 (5 ms)
+[ RUN      ] DarwinFixture.creature_in_front_4
+[       OK ] DarwinFixture.creature_in_front_4 (5 ms)
+[ RUN      ] DarwinFixture.creature_turn_left_1
+[       OK ] DarwinFixture.creature_turn_left_1 (4 ms)
+[ RUN      ] DarwinFixture.creature_turn_left_2
+[       OK ] DarwinFixture.creature_turn_left_2 (5 ms)
+[ RUN      ] DarwinFixture.creature_turn_left_3
+[       OK ] DarwinFixture.creature_turn_left_3 (4 ms)
+[ RUN      ] DarwinFixture.creature_turn_left_4
+[       OK ] DarwinFixture.creature_turn_left_4 (4 ms)
+[ RUN      ] DarwinFixture.creature_turn_left_5
+[       OK ] DarwinFixture.creature_turn_left_5 (5 ms)
+[ RUN      ] DarwinFixture.creature_turn_left_6
+[       OK ] DarwinFixture.creature_turn_left_6 (4 ms)
+[ RUN      ] DarwinFixture.creature_turn_left_7
+[       OK ] DarwinFixture.creature_turn_left_7 (4 ms)
+[ RUN      ] DarwinFixture.creature_turn_left_8
+[       OK ] DarwinFixture.creature_turn_left_8 (4 ms)
+[ RUN      ] DarwinFixture.creature_turn_right_1
+[       OK ] DarwinFixture.creature_turn_right_1 (4 ms)
+[ RUN      ] DarwinFixture.creature_turn_right_2
+[       OK ] DarwinFixture.creature_turn_right_2 (4 ms)
+[ RUN      ] DarwinFixture.creature_turn_right_3
+[       OK ] DarwinFixture.creature_turn_right_3 (4 ms)
+[ RUN      ] DarwinFixture.creature_turn_right_4
+[       OK ] DarwinFixture.creature_turn_right_4 (4 ms)
+[ RUN      ] DarwinFixture.creature_turn_right_5
+[       OK ] DarwinFixture.creature_turn_right_5 (4 ms)
+[ RUN      ] DarwinFixture.creature_turn_right_6
+[       OK ] DarwinFixture.creature_turn_right_6 (4 ms)
+[ RUN      ] DarwinFixture.creature_turn_right_7
+[       OK ] DarwinFixture.creature_turn_right_7 (4 ms)
+[ RUN      ] DarwinFixture.creature_turn_right_8
+[       OK ] DarwinFixture.creature_turn_right_8 (4 ms)
+[ RUN      ] DarwinFixture.creature_infect_1
+[       OK ] DarwinFixture.creature_infect_1 (4 ms)
+[ RUN      ] DarwinFixture.creature_print_self_1
+[       OK ] DarwinFixture.creature_print_self_1 (4 ms)
+[ RUN      ] DarwinFixture.creature_print_self_2
+[       OK ] DarwinFixture.creature_print_self_2 (4 ms)
+[ RUN      ] DarwinFixture.creature_print_self_3
+[       OK ] DarwinFixture.creature_print_self_3 (3 ms)
+[ RUN      ] DarwinFixture.creature_hop
+[       OK ] DarwinFixture.creature_hop (4 ms)
+[ RUN      ] DarwinFixture.creature_hop_2
+[       OK ] DarwinFixture.creature_hop_2 (3 ms)
+[ RUN      ] DarwinFixture.creature_hop_3
+[       OK ] DarwinFixture.creature_hop_3 (3 ms)
+[ RUN      ] DarwinFixture.creature_copy_constructor
+[       OK ] DarwinFixture.creature_copy_constructor (4 ms)
+[----------] 41 tests from DarwinFixture (325 ms total)
+
+[----------] Global test environment tear-down
+[==========] 41 tests from 1 test case ran. (378 ms total)
+[  PASSED  ] 41 tests.
+==4798== 
+==4798== HEAP SUMMARY:
+==4798==     in use at exit: 72,704 bytes in 1 blocks
+==4798==   total heap usage: 680 allocs, 679 frees, 194,870 bytes allocated
+==4798== 
+==4798== LEAK SUMMARY:
+==4798==    definitely lost: 0 bytes in 0 blocks
+==4798==    indirectly lost: 0 bytes in 0 blocks
+==4798==      possibly lost: 0 bytes in 0 blocks
+==4798==    still reachable: 72,704 bytes in 1 blocks
+==4798==         suppressed: 0 bytes in 0 blocks
+==4798== Rerun with --leak-check=full to see details of leaked memory
+==4798== 
+==4798== For counts of detected and suppressed errors, rerun with: -v
+==4798== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+File 'Darwin.c++'
+Lines executed:68.25% of 63
+Branches executed:85.71% of 98
+Taken at least once:52.04% of 98
+Calls executed:67.02% of 94
+Creating 'Darwin.c++.gcov'
+.gitignore found
+Darwin.c++ found
+Darwin.h found
+Darwin.log found
+html found
+makefile found
+RunDarwin.c++ found
+RunDarwin.out found
+TestDarwin.c++ found
+TestDarwin.out found
+success
