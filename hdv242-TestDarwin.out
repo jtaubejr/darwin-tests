@@ -1,0 +1,85 @@
+==27340== Memcheck, a memory error detector
+==27340== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==27340== Using Valgrind-3.10.1 and LibVEX; rerun with -h for copyright info
+==27340== Command: ./TestDarwin
+==27340== 
+Running main() from gtest_main.cc
+[==========] Running 25 tests from 3 test cases.
+[----------] Global test environment set-up.
+[----------] 7 tests from SpeciesFixture
+[ RUN      ] SpeciesFixture.SpeciesConstructor
+[       OK ] SpeciesFixture.SpeciesConstructor (11 ms)
+[ RUN      ] SpeciesFixture.SpeciesConstructor2
+[       OK ] SpeciesFixture.SpeciesConstructor2 (2 ms)
+[ RUN      ] SpeciesFixture.SpeciesConstructor3
+[       OK ] SpeciesFixture.SpeciesConstructor3 (3 ms)
+[ RUN      ] SpeciesFixture.AddInstruction
+[       OK ] SpeciesFixture.AddInstruction (16 ms)
+[ RUN      ] SpeciesFixture.Print
+[       OK ] SpeciesFixture.Print (5 ms)
+[ RUN      ] SpeciesFixture.Print2
+[       OK ] SpeciesFixture.Print2 (3 ms)
+[ RUN      ] SpeciesFixture.Print3
+[       OK ] SpeciesFixture.Print3 (3 ms)
+[----------] 7 tests from SpeciesFixture (50 ms total)
+
+[----------] 10 tests from CreatureFixture
+[ RUN      ] CreatureFixture.CreatureConstructor
+[       OK ] CreatureFixture.CreatureConstructor (9 ms)
+[ RUN      ] CreatureFixture.Print
+[       OK ] CreatureFixture.Print (2 ms)
+[ RUN      ] CreatureFixture.Print2
+[       OK ] CreatureFixture.Print2 (3 ms)
+[ RUN      ] CreatureFixture.Print3
+[       OK ] CreatureFixture.Print3 (4 ms)
+[ RUN      ] CreatureFixture.DirectionChange
+[       OK ] CreatureFixture.DirectionChange (3 ms)
+[ RUN      ] CreatureFixture.DirectionChange2
+[       OK ] CreatureFixture.DirectionChange2 (2 ms)
+[ RUN      ] CreatureFixture.DirectionChange3
+[       OK ] CreatureFixture.DirectionChange3 (4 ms)
+[ RUN      ] CreatureFixture.AdvancePC
+[       OK ] CreatureFixture.AdvancePC (2 ms)
+[ RUN      ] CreatureFixture.AdvancePC2
+[       OK ] CreatureFixture.AdvancePC2 (3 ms)
+[ RUN      ] CreatureFixture.AdvancePC3
+[       OK ] CreatureFixture.AdvancePC3 (3 ms)
+[----------] 10 tests from CreatureFixture (37 ms total)
+
+[----------] 8 tests from DarwinFixture
+[ RUN      ] DarwinFixture.DarwinConstructor1
+[       OK ] DarwinFixture.DarwinConstructor1 (21 ms)
+[ RUN      ] DarwinFixture.DarwinConstructor2
+[       OK ] DarwinFixture.DarwinConstructor2 (3 ms)
+[ RUN      ] DarwinFixture.DarwinConstructor3
+[       OK ] DarwinFixture.DarwinConstructor3 (5 ms)
+[ RUN      ] DarwinFixture.DarwinConstructor4
+[       OK ] DarwinFixture.DarwinConstructor4 (3 ms)
+[ RUN      ] DarwinFixture.DarwinConstructor5
+[       OK ] DarwinFixture.DarwinConstructor5 (4 ms)
+[ RUN      ] DarwinFixture.AddCreature
+[       OK ] DarwinFixture.AddCreature (4 ms)
+[ RUN      ] DarwinFixture.Run1
+[       OK ] DarwinFixture.Run1 (40 ms)
+[ RUN      ] DarwinFixture.Run2
+[       OK ] DarwinFixture.Run2 (28 ms)
+[----------] 8 tests from DarwinFixture (108 ms total)
+
+[----------] Global test environment tear-down
+[==========] 25 tests from 3 test cases ran. (225 ms total)
+[  PASSED  ] 25 tests.
+==27340== 
+==27340== HEAP SUMMARY:
+==27340==     in use at exit: 0 bytes in 0 blocks
+==27340==   total heap usage: 1,320 allocs, 1,320 frees, 361,052 bytes allocated
+==27340== 
+==27340== All heap blocks were freed -- no leaks are possible
+==27340== 
+==27340== For counts of detected and suppressed errors, rerun with: -v
+==27340== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+File 'Darwin.c++'
+Lines executed:91.61% of 155
+Branches executed:94.41% of 143
+Taken at least once:67.13% of 143
+Calls executed:83.33% of 120
+Creating 'Darwin.c++.gcov'
