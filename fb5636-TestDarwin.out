@@ -1,0 +1,95 @@
+==21545== Memcheck, a memory error detector
+==21545== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==21545== Using Valgrind-3.10.1 and LibVEX; rerun with -h for copyright info
+==21545== Command: ./TestDarwin
+==21545== 
+Running main() from gtest_main.cc
+[==========] Running 30 tests from 3 test cases.
+[----------] Global test environment set-up.
+[----------] 7 tests from SpeciesFixture
+[ RUN      ] SpeciesFixture.addInstruction
+[       OK ] SpeciesFixture.addInstruction (18 ms)
+[ RUN      ] SpeciesFixture.execute
+[       OK ] SpeciesFixture.execute (17 ms)
+[ RUN      ] SpeciesFixture.execute2
+[       OK ] SpeciesFixture.execute2 (4 ms)
+[ RUN      ] SpeciesFixture.execute3
+[       OK ] SpeciesFixture.execute3 (4 ms)
+[ RUN      ] SpeciesFixture.execute4
+[       OK ] SpeciesFixture.execute4 (8 ms)
+[ RUN      ] SpeciesFixture.execute5
+[       OK ] SpeciesFixture.execute5 (5 ms)
+[ RUN      ] SpeciesFixture.execute6
+[       OK ] SpeciesFixture.execute6 (6 ms)
+[----------] 7 tests from SpeciesFixture (68 ms total)
+
+[----------] 20 tests from CreatureFixture
+[ RUN      ] CreatureFixture.getfacing1
+[       OK ] CreatureFixture.getfacing1 (4 ms)
+[ RUN      ] CreatureFixture.getfacing2
+[       OK ] CreatureFixture.getfacing2 (4 ms)
+[ RUN      ] CreatureFixture.left1
+[       OK ] CreatureFixture.left1 (3 ms)
+[ RUN      ] CreatureFixture.left2
+[       OK ] CreatureFixture.left2 (2 ms)
+[ RUN      ] CreatureFixture.right1
+[       OK ] CreatureFixture.right1 (3 ms)
+[ RUN      ] CreatureFixture.right2
+[       OK ] CreatureFixture.right2 (3 ms)
+[ RUN      ] CreatureFixture.infect1
+[       OK ] CreatureFixture.infect1 (11 ms)
+[ RUN      ] CreatureFixture.infect2
+[       OK ] CreatureFixture.infect2 (3 ms)
+[ RUN      ] CreatureFixture.hop1
+[       OK ] CreatureFixture.hop1 (12 ms)
+[ RUN      ] CreatureFixture.hop2
+[       OK ] CreatureFixture.hop2 (3 ms)
+[ RUN      ] CreatureFixture.hop3
+[       OK ] CreatureFixture.hop3 (4 ms)
+[ RUN      ] CreatureFixture.if_enemy1
+[       OK ] CreatureFixture.if_enemy1 (4 ms)
+[ RUN      ] CreatureFixture.if_enemy2
+[       OK ] CreatureFixture.if_enemy2 (2 ms)
+[ RUN      ] CreatureFixture.if_empty1
+[       OK ] CreatureFixture.if_empty1 (3 ms)
+[ RUN      ] CreatureFixture.if_empty2
+[       OK ] CreatureFixture.if_empty2 (4 ms)
+[ RUN      ] CreatureFixture.if_empty3
+[       OK ] CreatureFixture.if_empty3 (4 ms)
+[ RUN      ] CreatureFixture.if_wall1
+[       OK ] CreatureFixture.if_wall1 (4 ms)
+[ RUN      ] CreatureFixture.if_wall2
+[       OK ] CreatureFixture.if_wall2 (4 ms)
+[ RUN      ] CreatureFixture.if_wall3
+[       OK ] CreatureFixture.if_wall3 (2 ms)
+[ RUN      ] CreatureFixture.if_enemy3
+[       OK ] CreatureFixture.if_enemy3 (4 ms)
+[----------] 20 tests from CreatureFixture (83 ms total)
+
+[----------] 3 tests from DarwinFixture
+[ RUN      ] DarwinFixture.addCreature
+[       OK ] DarwinFixture.addCreature (11 ms)
+[ RUN      ] DarwinFixture.addCreature1
+[       OK ] DarwinFixture.addCreature1 (3 ms)
+[ RUN      ] DarwinFixture.addCreature2
+[       OK ] DarwinFixture.addCreature2 (1 ms)
+[----------] 3 tests from DarwinFixture (15 ms total)
+
+[----------] Global test environment tear-down
+[==========] 30 tests from 3 test cases ran. (191 ms total)
+[  PASSED  ] 30 tests.
+==21545== 
+==21545== HEAP SUMMARY:
+==21545==     in use at exit: 0 bytes in 0 blocks
+==21545==   total heap usage: 920 allocs, 920 frees, 107,371 bytes allocated
+==21545== 
+==21545== All heap blocks were freed -- no leaks are possible
+==21545== 
+==21545== For counts of detected and suppressed errors, rerun with: -v
+==21545== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+File 'Darwin.c++'
+Lines executed:62.67% of 150
+Branches executed:66.67% of 174
+Taken at least once:44.83% of 174
+Calls executed:53.45% of 116
+Creating 'Darwin.c++.gcov'
