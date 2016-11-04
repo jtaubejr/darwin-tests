@@ -1,0 +1,206 @@
+==75== Memcheck, a memory error detector
+==75== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==75== Using Valgrind-3.10.0 and LibVEX; rerun with -h for copyright info
+==75== Command: ./TestDarwin
+==75== 
+Running main() from gtest_main.cc
+[==========] Running 75 tests from 8 test cases.
+[----------] Global test environment set-up.
+[----------] 1 test from SpeciesFixture
+[ RUN      ] SpeciesFixture.test
+[       OK ] SpeciesFixture.test (18 ms)
+[----------] 1 test from SpeciesFixture (31 ms total)
+
+[----------] 15 tests from AddCreatureFixture
+[ RUN      ] AddCreatureFixture.test1
+[       OK ] AddCreatureFixture.test1 (46 ms)
+[ RUN      ] AddCreatureFixture.test2
+[       OK ] AddCreatureFixture.test2 (8 ms)
+[ RUN      ] AddCreatureFixture.test3
+[       OK ] AddCreatureFixture.test3 (6 ms)
+[ RUN      ] AddCreatureFixture.test4
+[       OK ] AddCreatureFixture.test4 (7 ms)
+[ RUN      ] AddCreatureFixture.test5
+[       OK ] AddCreatureFixture.test5 (6 ms)
+[ RUN      ] AddCreatureFixture.test6
+[       OK ] AddCreatureFixture.test6 (8 ms)
+[ RUN      ] AddCreatureFixture.test7
+[       OK ] AddCreatureFixture.test7 (8 ms)
+[ RUN      ] AddCreatureFixture.test8
+[       OK ] AddCreatureFixture.test8 (7 ms)
+[ RUN      ] AddCreatureFixture.test9
+[       OK ] AddCreatureFixture.test9 (6 ms)
+[ RUN      ] AddCreatureFixture.test10
+[       OK ] AddCreatureFixture.test10 (7 ms)
+[ RUN      ] AddCreatureFixture.test11
+[       OK ] AddCreatureFixture.test11 (6 ms)
+[ RUN      ] AddCreatureFixture.test12
+[       OK ] AddCreatureFixture.test12 (7 ms)
+[ RUN      ] AddCreatureFixture.test13
+[       OK ] AddCreatureFixture.test13 (6 ms)
+[ RUN      ] AddCreatureFixture.test14
+[       OK ] AddCreatureFixture.test14 (7 ms)
+[ RUN      ] AddCreatureFixture.test15
+[       OK ] AddCreatureFixture.test15 (7 ms)
+[----------] 15 tests from AddCreatureFixture (158 ms total)
+
+[----------] 11 tests from HopFixture
+[ RUN      ] HopFixture.test1
+[       OK ] HopFixture.test1 (37 ms)
+[ RUN      ] HopFixture.test2
+[       OK ] HopFixture.test2 (8 ms)
+[ RUN      ] HopFixture.test3
+[       OK ] HopFixture.test3 (9 ms)
+[ RUN      ] HopFixture.test4
+[       OK ] HopFixture.test4 (8 ms)
+[ RUN      ] HopFixture.test5
+[       OK ] HopFixture.test5 (8 ms)
+[ RUN      ] HopFixture.test6
+[       OK ] HopFixture.test6 (9 ms)
+[ RUN      ] HopFixture.test7
+[       OK ] HopFixture.test7 (8 ms)
+[ RUN      ] HopFixture.test8
+[       OK ] HopFixture.test8 (8 ms)
+[ RUN      ] HopFixture.test9
+[       OK ] HopFixture.test9 (9 ms)
+[ RUN      ] HopFixture.test10
+[       OK ] HopFixture.test10 (9 ms)
+[ RUN      ] HopFixture.test11
+[       OK ] HopFixture.test11 (8 ms)
+[----------] 11 tests from HopFixture (135 ms total)
+
+[----------] 4 tests from HopperConflictFixture
+[ RUN      ] HopperConflictFixture.test1
+[       OK ] HopperConflictFixture.test1 (10 ms)
+[ RUN      ] HopperConflictFixture.test2
+[       OK ] HopperConflictFixture.test2 (16 ms)
+[ RUN      ] HopperConflictFixture.test3
+[       OK ] HopperConflictFixture.test3 (12 ms)
+[ RUN      ] HopperConflictFixture.test4
+[       OK ] HopperConflictFixture.test4 (11 ms)
+[----------] 4 tests from HopperConflictFixture (55 ms total)
+
+[----------] 15 tests from AddDiffCreatureFixture
+[ RUN      ] AddDiffCreatureFixture.test1
+[       OK ] AddDiffCreatureFixture.test1 (10 ms)
+[ RUN      ] AddDiffCreatureFixture.test2
+[       OK ] AddDiffCreatureFixture.test2 (10 ms)
+[ RUN      ] AddDiffCreatureFixture.test3
+[       OK ] AddDiffCreatureFixture.test3 (10 ms)
+[ RUN      ] AddDiffCreatureFixture.test4
+[       OK ] AddDiffCreatureFixture.test4 (11 ms)
+[ RUN      ] AddDiffCreatureFixture.test5
+[       OK ] AddDiffCreatureFixture.test5 (10 ms)
+[ RUN      ] AddDiffCreatureFixture.test6
+[       OK ] AddDiffCreatureFixture.test6 (10 ms)
+[ RUN      ] AddDiffCreatureFixture.test7
+[       OK ] AddDiffCreatureFixture.test7 (10 ms)
+[ RUN      ] AddDiffCreatureFixture.test8
+[       OK ] AddDiffCreatureFixture.test8 (10 ms)
+[ RUN      ] AddDiffCreatureFixture.test9
+[       OK ] AddDiffCreatureFixture.test9 (11 ms)
+[ RUN      ] AddDiffCreatureFixture.test10
+[       OK ] AddDiffCreatureFixture.test10 (10 ms)
+[ RUN      ] AddDiffCreatureFixture.test11
+[       OK ] AddDiffCreatureFixture.test11 (10 ms)
+[ RUN      ] AddDiffCreatureFixture.test12
+[       OK ] AddDiffCreatureFixture.test12 (10 ms)
+[ RUN      ] AddDiffCreatureFixture.test13
+[       OK ] AddDiffCreatureFixture.test13 (9 ms)
+[ RUN      ] AddDiffCreatureFixture.test14
+[       OK ] AddDiffCreatureFixture.test14 (9 ms)
+[ RUN      ] AddDiffCreatureFixture.test15
+[       OK ] AddDiffCreatureFixture.test15 (9 ms)
+[----------] 15 tests from AddDiffCreatureFixture (167 ms total)
+
+[----------] 11 tests from HopBotFixture
+[ RUN      ] HopBotFixture.test1
+[       OK ] HopBotFixture.test1 (8 ms)
+[ RUN      ] HopBotFixture.test2
+[       OK ] HopBotFixture.test2 (9 ms)
+[ RUN      ] HopBotFixture.test3
+[       OK ] HopBotFixture.test3 (9 ms)
+[ RUN      ] HopBotFixture.test4
+[       OK ] HopBotFixture.test4 (9 ms)
+[ RUN      ] HopBotFixture.test5
+[       OK ] HopBotFixture.test5 (8 ms)
+[ RUN      ] HopBotFixture.test6
+[       OK ] HopBotFixture.test6 (9 ms)
+[ RUN      ] HopBotFixture.test7
+[       OK ] HopBotFixture.test7 (9 ms)
+[ RUN      ] HopBotFixture.test8
+[       OK ] HopBotFixture.test8 (9 ms)
+[ RUN      ] HopBotFixture.test9
+[       OK ] HopBotFixture.test9 (9 ms)
+[ RUN      ] HopBotFixture.test10
+[       OK ] HopBotFixture.test10 (9 ms)
+[ RUN      ] HopBotFixture.test11
+[       OK ] HopBotFixture.test11 (8 ms)
+[----------] 11 tests from HopBotFixture (108 ms total)
+
+[----------] 16 tests from DiffCreatureFixture
+[ RUN      ] DiffCreatureFixture.test1
+[       OK ] DiffCreatureFixture.test1 (6 ms)
+[ RUN      ] DiffCreatureFixture.test2
+[       OK ] DiffCreatureFixture.test2 (6 ms)
+[ RUN      ] DiffCreatureFixture.test3
+[       OK ] DiffCreatureFixture.test3 (6 ms)
+[ RUN      ] DiffCreatureFixture.test4
+[       OK ] DiffCreatureFixture.test4 (6 ms)
+[ RUN      ] DiffCreatureFixture.test5
+[       OK ] DiffCreatureFixture.test5 (6 ms)
+[ RUN      ] DiffCreatureFixture.test6
+[       OK ] DiffCreatureFixture.test6 (6 ms)
+[ RUN      ] DiffCreatureFixture.test7
+[       OK ] DiffCreatureFixture.test7 (5 ms)
+[ RUN      ] DiffCreatureFixture.test8
+[       OK ] DiffCreatureFixture.test8 (5 ms)
+[ RUN      ] DiffCreatureFixture.test9
+[       OK ] DiffCreatureFixture.test9 (6 ms)
+[ RUN      ] DiffCreatureFixture.test10
+[       OK ] DiffCreatureFixture.test10 (6 ms)
+[ RUN      ] DiffCreatureFixture.test11
+[       OK ] DiffCreatureFixture.test11 (6 ms)
+[ RUN      ] DiffCreatureFixture.test12
+[       OK ] DiffCreatureFixture.test12 (6 ms)
+[ RUN      ] DiffCreatureFixture.test13
+[       OK ] DiffCreatureFixture.test13 (5 ms)
+[ RUN      ] DiffCreatureFixture.test14
+[       OK ] DiffCreatureFixture.test14 (6 ms)
+[ RUN      ] DiffCreatureFixture.test15
+[       OK ] DiffCreatureFixture.test15 (6 ms)
+[ RUN      ] DiffCreatureFixture.test16
+[       OK ] DiffCreatureFixture.test16 (6 ms)
+[----------] 16 tests from DiffCreatureFixture (110 ms total)
+
+[----------] 2 tests from MultiHopBotFixture
+[ RUN      ] MultiHopBotFixture.test1
+[       OK ] MultiHopBotFixture.test1 (10 ms)
+[ RUN      ] MultiHopBotFixture.test2
+[       OK ] MultiHopBotFixture.test2 (9 ms)
+[----------] 2 tests from MultiHopBotFixture (22 ms total)
+
+[----------] Global test environment tear-down
+[==========] 75 tests from 8 test cases ran. (849 ms total)
+[  PASSED  ] 75 tests.
+==75== 
+==75== HEAP SUMMARY:
+==75==     in use at exit: 72,704 bytes in 1 blocks
+==75==   total heap usage: 2,801 allocs, 2,800 frees, 455,165 bytes allocated
+==75== 
+==75== LEAK SUMMARY:
+==75==    definitely lost: 0 bytes in 0 blocks
+==75==    indirectly lost: 0 bytes in 0 blocks
+==75==      possibly lost: 0 bytes in 0 blocks
+==75==    still reachable: 72,704 bytes in 1 blocks
+==75==         suppressed: 0 bytes in 0 blocks
+==75== Rerun with --leak-check=full to see details of leaked memory
+==75== 
+==75== For counts of detected and suppressed errors, rerun with: -v
+==75== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+File 'Darwin.c++'
+Lines executed:100.00% of 1
+Branches executed:100.00% of 4
+Taken at least once:50.00% of 4
+Calls executed:100.00% of 1
+Creating 'Darwin.c++.gcov'
