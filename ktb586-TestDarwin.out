@@ -1,0 +1,115 @@
+==10415== Memcheck, a memory error detector
+==10415== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==10415== Using Valgrind-3.10.1 and LibVEX; rerun with -h for copyright info
+==10415== Command: ./TestDarwin
+==10415== 
+Running main() from gtest_main.cc
+[==========] Running 34 tests from 3 test cases.
+[----------] Global test environment set-up.
+[----------] 12 tests from DarwinFixture
+[ RUN      ] DarwinFixture.test1
+[       OK ] DarwinFixture.test1 (11 ms)
+[ RUN      ] DarwinFixture.test2
+[       OK ] DarwinFixture.test2 (2 ms)
+[ RUN      ] DarwinFixture.test3
+[       OK ] DarwinFixture.test3 (2 ms)
+[ RUN      ] DarwinFixture.test4
+[       OK ] DarwinFixture.test4 (13 ms)
+[ RUN      ] DarwinFixture.test5
+[       OK ] DarwinFixture.test5 (4 ms)
+[ RUN      ] DarwinFixture.test6
+[       OK ] DarwinFixture.test6 (5 ms)
+[ RUN      ] DarwinFixture.test7
+[       OK ] DarwinFixture.test7 (3 ms)
+[ RUN      ] DarwinFixture.test8
+[       OK ] DarwinFixture.test8 (3 ms)
+[ RUN      ] DarwinFixture.test9
+[       OK ] DarwinFixture.test9 (2 ms)
+[ RUN      ] DarwinFixture.test10
+[       OK ] DarwinFixture.test10 (3 ms)
+[ RUN      ] DarwinFixture.test11
+[       OK ] DarwinFixture.test11 (3 ms)
+[ RUN      ] DarwinFixture.test12
+[       OK ] DarwinFixture.test12 (4 ms)
+[----------] 12 tests from DarwinFixture (62 ms total)
+
+[----------] 14 tests from DarwinFixture1
+[ RUN      ] DarwinFixture1.creature1
+[       OK ] DarwinFixture1.creature1 (3 ms)
+[ RUN      ] DarwinFixture1.creature2
+[       OK ] DarwinFixture1.creature2 (3 ms)
+[ RUN      ] DarwinFixture1.creature3
+[       OK ] DarwinFixture1.creature3 (3 ms)
+[ RUN      ] DarwinFixture1.creature4
+[       OK ] DarwinFixture1.creature4 (4 ms)
+[ RUN      ] DarwinFixture1.creature5
+[       OK ] DarwinFixture1.creature5 (10 ms)
+[ RUN      ] DarwinFixture1.creature6
+[       OK ] DarwinFixture1.creature6 (4 ms)
+[ RUN      ] DarwinFixture1.creature7
+[       OK ] DarwinFixture1.creature7 (4 ms)
+[ RUN      ] DarwinFixture1.creature8
+[       OK ] DarwinFixture1.creature8 (4 ms)
+[ RUN      ] DarwinFixture1.creature9
+[       OK ] DarwinFixture1.creature9 (2 ms)
+[ RUN      ] DarwinFixture1.creature10
+[       OK ] DarwinFixture1.creature10 (3 ms)
+[ RUN      ] DarwinFixture1.creature11
+[       OK ] DarwinFixture1.creature11 (5 ms)
+[ RUN      ] DarwinFixture1.creature12
+[       OK ] DarwinFixture1.creature12 (4 ms)
+[ RUN      ] DarwinFixture1.creature13
+[       OK ] DarwinFixture1.creature13 (3 ms)
+[ RUN      ] DarwinFixture1.creature14
+[       OK ] DarwinFixture1.creature14 (21 ms)
+[----------] 14 tests from DarwinFixture1 (74 ms total)
+
+[----------] 8 tests from DarwinFixture2
+[ RUN      ] DarwinFixture2.darwin1
+[       OK ] DarwinFixture2.darwin1 (2 ms)
+[ RUN      ] DarwinFixture2.darwin2
+[       OK ] DarwinFixture2.darwin2 (4 ms)
+[ RUN      ] DarwinFixture2.darwin3
+[       OK ] DarwinFixture2.darwin3 (2 ms)
+[ RUN      ] DarwinFixture2.darwin4
+[       OK ] DarwinFixture2.darwin4 (4 ms)
+[ RUN      ] DarwinFixture2.darwin5
+[       OK ] DarwinFixture2.darwin5 (3 ms)
+[ RUN      ] DarwinFixture2.darwin6
+[       OK ] DarwinFixture2.darwin6 (3 ms)
+[ RUN      ] DarwinFixture2.darwin7
+[       OK ] DarwinFixture2.darwin7 (10 ms)
+[ RUN      ] DarwinFixture2.darwin9
+[       OK ] DarwinFixture2.darwin9 (12 ms)
+[----------] 8 tests from DarwinFixture2 (41 ms total)
+
+[----------] Global test environment tear-down
+[==========] 34 tests from 3 test cases ran. (206 ms total)
+[  PASSED  ] 34 tests.
+==10415== 
+==10415== HEAP SUMMARY:
+==10415==     in use at exit: 0 bytes in 0 blocks
+==10415==   total heap usage: 1,066 allocs, 1,066 frees, 194,673 bytes allocated
+==10415== 
+==10415== All heap blocks were freed -- no leaks are possible
+==10415== 
+==10415== For counts of detected and suppressed errors, rerun with: -v
+==10415== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+File 'Darwin.c++'
+Lines executed:57.58% of 165
+Branches executed:62.35% of 162
+Taken at least once:37.04% of 162
+Calls executed:51.54% of 130
+Creating 'Darwin.c++.gcov'
+.gitignore found
+Darwin.c++ found
+Darwin.h found
+Darwin.log found
+html found
+makefile found
+RunDarwin.c++ found
+RunDarwin.out found
+TestDarwin.c++ found
+TestDarwin.out found
+success
+
