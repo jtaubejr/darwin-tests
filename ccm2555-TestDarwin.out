@@ -1,0 +1,193 @@
+==26106== Memcheck, a memory error detector
+==26106== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==26106== Using Valgrind-3.10.1 and LibVEX; rerun with -h for copyright info
+==26106== Command: ./TestDarwin
+==26106== 
+Running main() from gtest_main.cc
+[==========] Running 82 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 82 tests from DarwinTest
+[ RUN      ] DarwinTest.species_constructor_1
+[       OK ] DarwinTest.species_constructor_1 (10 ms)
+[ RUN      ] DarwinTest.species_constructor_2
+[       OK ] DarwinTest.species_constructor_2 (2 ms)
+[ RUN      ] DarwinTest.species_constructor_3
+[       OK ] DarwinTest.species_constructor_3 (2 ms)
+[ RUN      ] DarwinTest.species_assignment_operator_1
+[       OK ] DarwinTest.species_assignment_operator_1 (6 ms)
+[ RUN      ] DarwinTest.species_assignment_operator_2
+[       OK ] DarwinTest.species_assignment_operator_2 (7 ms)
+[ RUN      ] DarwinTest.species_assignment_operator_3
+[       OK ] DarwinTest.species_assignment_operator_3 (17 ms)
+[ RUN      ] DarwinTest.species_addInstruction_1
+[       OK ] DarwinTest.species_addInstruction_1 (6 ms)
+[ RUN      ] DarwinTest.species_addInstruction_2
+[       OK ] DarwinTest.species_addInstruction_2 (5 ms)
+[ RUN      ] DarwinTest.species_addInstruction_3
+[       OK ] DarwinTest.species_addInstruction_3 (4 ms)
+[ RUN      ] DarwinTest.species_equals_operator_1
+[       OK ] DarwinTest.species_equals_operator_1 (3 ms)
+[ RUN      ] DarwinTest.species_equals_operator_2
+[       OK ] DarwinTest.species_equals_operator_2 (2 ms)
+[ RUN      ] DarwinTest.species_equals_operator_3
+[       OK ] DarwinTest.species_equals_operator_3 (3 ms)
+[ RUN      ] DarwinTest.species_equals_operator_4
+[       OK ] DarwinTest.species_equals_operator_4 (3 ms)
+[ RUN      ] DarwinTest.species_equals_operator_5
+[       OK ] DarwinTest.species_equals_operator_5 (3 ms)
+[ RUN      ] DarwinTest.species_getNextInstruction_1
+[       OK ] DarwinTest.species_getNextInstruction_1 (3 ms)
+[ RUN      ] DarwinTest.species_getNextInstruction_2
+[       OK ] DarwinTest.species_getNextInstruction_2 (2 ms)
+[ RUN      ] DarwinTest.species_getNextInstruction_3
+[       OK ] DarwinTest.species_getNextInstruction_3 (3 ms)
+[ RUN      ] DarwinTest.species_print_1
+[       OK ] DarwinTest.species_print_1 (5 ms)
+[ RUN      ] DarwinTest.species_print_2
+[       OK ] DarwinTest.species_print_2 (3 ms)
+[ RUN      ] DarwinTest.species_print_3
+[       OK ] DarwinTest.species_print_3 (4 ms)
+[ RUN      ] DarwinTest.creature_default_constructor_1
+[       OK ] DarwinTest.creature_default_constructor_1 (2 ms)
+[ RUN      ] DarwinTest.creature_default_constructor_2
+[       OK ] DarwinTest.creature_default_constructor_2 (2 ms)
+[ RUN      ] DarwinTest.creature_default_constructor_3
+[       OK ] DarwinTest.creature_default_constructor_3 (2 ms)
+[ RUN      ] DarwinTest.creature_default_constructor_4
+[       OK ] DarwinTest.creature_default_constructor_4 (1 ms)
+[ RUN      ] DarwinTest.creature_default_constructor_5
+[       OK ] DarwinTest.creature_default_constructor_5 (3 ms)
+[ RUN      ] DarwinTest.creature_copy_constructor_1
+[       OK ] DarwinTest.creature_copy_constructor_1 (5 ms)
+[ RUN      ] DarwinTest.creature_copy_constructor_2
+[       OK ] DarwinTest.creature_copy_constructor_2 (4 ms)
+[ RUN      ] DarwinTest.creature_copy_constructor_3
+[       OK ] DarwinTest.creature_copy_constructor_3 (5 ms)
+[ RUN      ] DarwinTest.creature_assignment_operator_1
+[       OK ] DarwinTest.creature_assignment_operator_1 (4 ms)
+[ RUN      ] DarwinTest.creature_assignment_operator_2
+[       OK ] DarwinTest.creature_assignment_operator_2 (4 ms)
+[ RUN      ] DarwinTest.creature_assignment_operator_3
+[       OK ] DarwinTest.creature_assignment_operator_3 (4 ms)
+[ RUN      ] DarwinTest.creature_getNextInstruction_1
+[       OK ] DarwinTest.creature_getNextInstruction_1 (4 ms)
+[ RUN      ] DarwinTest.creature_getNextInstruction_2
+[       OK ] DarwinTest.creature_getNextInstruction_2 (4 ms)
+[ RUN      ] DarwinTest.creature_getNextInstruction_3
+[       OK ] DarwinTest.creature_getNextInstruction_3 (3 ms)
+[ RUN      ] DarwinTest.creature_getNextInstruction_4
+[       OK ] DarwinTest.creature_getNextInstruction_4 (3 ms)
+[ RUN      ] DarwinTest.creature_getNextInstruction_5
+[       OK ] DarwinTest.creature_getNextInstruction_5 (5 ms)
+[ RUN      ] DarwinTest.creature_getNextInstruction_6
+[       OK ] DarwinTest.creature_getNextInstruction_6 (4 ms)
+[ RUN      ] DarwinTest.creature_getNextInstruction_7
+[       OK ] DarwinTest.creature_getNextInstruction_7 (4 ms)
+[ RUN      ] DarwinTest.creature_getNextInstruction_8
+[       OK ] DarwinTest.creature_getNextInstruction_8 (5 ms)
+[ RUN      ] DarwinTest.creature_getNextInstruction_9
+[       OK ] DarwinTest.creature_getNextInstruction_9 (4 ms)
+[ RUN      ] DarwinTest.creature_getNextInstruction_10
+[       OK ] DarwinTest.creature_getNextInstruction_10 (4 ms)
+[ RUN      ] DarwinTest.creature_inFront_1
+[       OK ] DarwinTest.creature_inFront_1 (3 ms)
+[ RUN      ] DarwinTest.creature_inFront_2
+[       OK ] DarwinTest.creature_inFront_2 (3 ms)
+[ RUN      ] DarwinTest.creature_inFront_3
+[       OK ] DarwinTest.creature_inFront_3 (3 ms)
+[ RUN      ] DarwinTest.creature_inFront_4
+[       OK ] DarwinTest.creature_inFront_4 (3 ms)
+[ RUN      ] DarwinTest.creature_isCreatureEnemy_1
+[       OK ] DarwinTest.creature_isCreatureEnemy_1 (3 ms)
+[ RUN      ] DarwinTest.creature_isCreatureEnemy_2
+[       OK ] DarwinTest.creature_isCreatureEnemy_2 (3 ms)
+[ RUN      ] DarwinTest.creature_isCreatureEnemy_3
+[       OK ] DarwinTest.creature_isCreatureEnemy_3 (3 ms)
+[ RUN      ] DarwinTest.creature_isCreatureEnemy_4
+[       OK ] DarwinTest.creature_isCreatureEnemy_4 (3 ms)
+[ RUN      ] DarwinTest.creature_isCreatureEnemy_5
+[       OK ] DarwinTest.creature_isCreatureEnemy_5 (3 ms)
+[ RUN      ] DarwinTest.creature_isCreatureEnemy_6
+[       OK ] DarwinTest.creature_isCreatureEnemy_6 (4 ms)
+[ RUN      ] DarwinTest.creature_isCreatureAsleep_1
+[       OK ] DarwinTest.creature_isCreatureAsleep_1 (2 ms)
+[ RUN      ] DarwinTest.creature_isCreatureAsleep_2
+[       OK ] DarwinTest.creature_isCreatureAsleep_2 (2 ms)
+[ RUN      ] DarwinTest.creature_isCreatureAsleep_3
+[       OK ] DarwinTest.creature_isCreatureAsleep_3 (2 ms)
+[ RUN      ] DarwinTest.creature_wakeCreature_1
+[       OK ] DarwinTest.creature_wakeCreature_1 (3 ms)
+[ RUN      ] DarwinTest.creature_wakeCreature_2
+[       OK ] DarwinTest.creature_wakeCreature_2 (3 ms)
+[ RUN      ] DarwinTest.creature_printCreature_1
+[       OK ] DarwinTest.creature_printCreature_1 (2 ms)
+[ RUN      ] DarwinTest.creature_printCreature_2
+[       OK ] DarwinTest.creature_printCreature_2 (2 ms)
+[ RUN      ] DarwinTest.creature_printCreature_3
+[       OK ] DarwinTest.creature_printCreature_3 (4 ms)
+[ RUN      ] DarwinTest.creature_printCreature_4
+[       OK ] DarwinTest.creature_printCreature_4 (3 ms)
+[ RUN      ] DarwinTest.darwin_constructor_1
+[       OK ] DarwinTest.darwin_constructor_1 (25 ms)
+[ RUN      ] DarwinTest.darwin_constructor_2
+[       OK ] DarwinTest.darwin_constructor_2 (22 ms)
+[ RUN      ] DarwinTest.darwin_constructor_3
+[       OK ] DarwinTest.darwin_constructor_3 (1441 ms)
+[ RUN      ] DarwinTest.darwin_addCreature_1
+[       OK ] DarwinTest.darwin_addCreature_1 (6 ms)
+[ RUN      ] DarwinTest.darwin_addCreature_2
+[       OK ] DarwinTest.darwin_addCreature_2 (5 ms)
+[ RUN      ] DarwinTest.darwin_addCreature_3
+[       OK ] DarwinTest.darwin_addCreature_3 (5 ms)
+[ RUN      ] DarwinTest.darwin_inBound_1
+[       OK ] DarwinTest.darwin_inBound_1 (3 ms)
+[ RUN      ] DarwinTest.darwin_inBound_2
+[       OK ] DarwinTest.darwin_inBound_2 (2 ms)
+[ RUN      ] DarwinTest.darwin_inBound_3
+[       OK ] DarwinTest.darwin_inBound_3 (2 ms)
+[ RUN      ] DarwinTest.darwin_inBound_4
+[       OK ] DarwinTest.darwin_inBound_4 (2 ms)
+[ RUN      ] DarwinTest.darwin_inBound_5
+[       OK ] DarwinTest.darwin_inBound_5 (2 ms)
+[ RUN      ] DarwinTest.darwin_wakeAllCreatures_1
+[       OK ] DarwinTest.darwin_wakeAllCreatures_1 (5 ms)
+[ RUN      ] DarwinTest.darwin_wakeAllCreatures_2
+[       OK ] DarwinTest.darwin_wakeAllCreatures_2 (3 ms)
+[ RUN      ] DarwinTest.darwin_wakeAllCreatures_3
+[       OK ] DarwinTest.darwin_wakeAllCreatures_3 (4 ms)
+[ RUN      ] DarwinTest.darwin_print_1
+[       OK ] DarwinTest.darwin_print_1 (7 ms)
+[ RUN      ] DarwinTest.darwin_print_2
+[       OK ] DarwinTest.darwin_print_2 (3 ms)
+[ RUN      ] DarwinTest.darwin_print_3
+[       OK ] DarwinTest.darwin_print_3 (3 ms)
+[ RUN      ] DarwinTest.darwin_print_4
+[       OK ] DarwinTest.darwin_print_4 (3 ms)
+[ RUN      ] DarwinTest.darwin_print_5
+[       OK ] DarwinTest.darwin_print_5 (13 ms)
+[ RUN      ] DarwinTest.darwin_print_6
+[       OK ] DarwinTest.darwin_print_6 (10 ms)
+[ RUN      ] DarwinTest.darwin_print_7
+[       OK ] DarwinTest.darwin_print_7 (8 ms)
+[ RUN      ] DarwinTest.darwin_print_8
+[       OK ] DarwinTest.darwin_print_8 (8 ms)
+[----------] 82 tests from DarwinTest (1813 ms total)
+
+[----------] Global test environment tear-down
+[==========] 82 tests from 1 test case ran. (1842 ms total)
+[  PASSED  ] 82 tests.
+==26106== 
+==26106== HEAP SUMMARY:
+==26106==     in use at exit: 0 bytes in 0 blocks
+==26106==   total heap usage: 2,772 allocs, 2,772 frees, 24,484,679 bytes allocated
+==26106== 
+==26106== All heap blocks were freed -- no leaks are possible
+==26106== 
+==26106== For counts of detected and suppressed errors, rerun with: -v
+==26106== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+File 'Darwin.c++'
+Lines executed:77.51% of 169
+Branches executed:85.71% of 154
+Taken at least once:60.39% of 154
+Calls executed:77.66% of 94
+Creating 'Darwin.c++.gcov'
