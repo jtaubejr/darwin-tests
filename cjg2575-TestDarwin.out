@@ -1,0 +1,75 @@
+Running main() from gtest_main.cc
+[==========] Running 33 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 33 tests from DarwinFixture
+[ RUN      ] DarwinFixture.species_print1
+[       OK ] DarwinFixture.species_print1 (0 ms)
+[ RUN      ] DarwinFixture.species_print2
+[       OK ] DarwinFixture.species_print2 (0 ms)
+[ RUN      ] DarwinFixture.species_print3
+[       OK ] DarwinFixture.species_print3 (0 ms)
+[ RUN      ] DarwinFixture.species_print4
+[       OK ] DarwinFixture.species_print4 (0 ms)
+[ RUN      ] DarwinFixture.species_add_ins1
+[       OK ] DarwinFixture.species_add_ins1 (0 ms)
+[ RUN      ] DarwinFixture.species_add_ins2
+[       OK ] DarwinFixture.species_add_ins2 (0 ms)
+[ RUN      ] DarwinFixture.species_add_ins3
+[       OK ] DarwinFixture.species_add_ins3 (0 ms)
+[ RUN      ] DarwinFixture.species_add_ins4
+[       OK ] DarwinFixture.species_add_ins4 (0 ms)
+[ RUN      ] DarwinFixture.species_next_action1
+[       OK ] DarwinFixture.species_next_action1 (0 ms)
+[ RUN      ] DarwinFixture.species_next_action2
+[       OK ] DarwinFixture.species_next_action2 (0 ms)
+[ RUN      ] DarwinFixture.species_next_action3
+[       OK ] DarwinFixture.species_next_action3 (0 ms)
+[ RUN      ] DarwinFixture.species_next_action4
+[       OK ] DarwinFixture.species_next_action4 (0 ms)
+[ RUN      ] DarwinFixture.species_next_action5
+[       OK ] DarwinFixture.species_next_action5 (0 ms)
+[ RUN      ] DarwinFixture.species_next_action6
+[       OK ] DarwinFixture.species_next_action6 (0 ms)
+[ RUN      ] DarwinFixture.species_next_action7
+[       OK ] DarwinFixture.species_next_action7 (0 ms)
+[ RUN      ] DarwinFixture.species_next_action8
+[       OK ] DarwinFixture.species_next_action8 (0 ms)
+[ RUN      ] DarwinFixture.species_next_action9
+[       OK ] DarwinFixture.species_next_action9 (0 ms)
+[ RUN      ] DarwinFixture.species_next_action10
+[       OK ] DarwinFixture.species_next_action10 (0 ms)
+[ RUN      ] DarwinFixture.species_next_action11
+[       OK ] DarwinFixture.species_next_action11 (0 ms)
+[ RUN      ] DarwinFixture.creature_print1
+[       OK ] DarwinFixture.creature_print1 (0 ms)
+[ RUN      ] DarwinFixture.creature_print2
+[       OK ] DarwinFixture.creature_print2 (0 ms)
+[ RUN      ] DarwinFixture.creature_print3
+[       OK ] DarwinFixture.creature_print3 (0 ms)
+[ RUN      ] DarwinFixture.creature_take_turn1
+[       OK ] DarwinFixture.creature_take_turn1 (0 ms)
+[ RUN      ] DarwinFixture.creature_take_turn2
+[       OK ] DarwinFixture.creature_take_turn2 (0 ms)
+[ RUN      ] DarwinFixture.creature_take_turn3
+[       OK ] DarwinFixture.creature_take_turn3 (0 ms)
+[ RUN      ] DarwinFixture.creature_take_turn4
+[       OK ] DarwinFixture.creature_take_turn4 (0 ms)
+[ RUN      ] DarwinFixture.creature_take_turn5
+[       OK ] DarwinFixture.creature_take_turn5 (0 ms)
+[ RUN      ] DarwinFixture.creature_take_turn6
+[       OK ] DarwinFixture.creature_take_turn6 (0 ms)
+[ RUN      ] DarwinFixture.darwin_construct
+[       OK ] DarwinFixture.darwin_construct (1 ms)
+[ RUN      ] DarwinFixture.darwin_print1
+[       OK ] DarwinFixture.darwin_print1 (0 ms)
+[ RUN      ] DarwinFixture.darwin_print2
+[       OK ] DarwinFixture.darwin_print2 (0 ms)
+[ RUN      ] DarwinFixture.darwin_next_turn1
+[       OK ] DarwinFixture.darwin_next_turn1 (0 ms)
+[ RUN      ] DarwinFixture.darwin_next_turn2
+[       OK ] DarwinFixture.darwin_next_turn2 (0 ms)
+[----------] 33 tests from DarwinFixture (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 33 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 33 tests.
