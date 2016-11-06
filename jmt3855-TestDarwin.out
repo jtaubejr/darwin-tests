@@ -1,0 +1,268 @@
+==139430== Memcheck, a memory error detector
+==139430== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==139430== Using Valgrind-3.10.1 and LibVEX; rerun with -h for copyright info
+==139430== Command: ./TestDarwin
+==139430==
+Running main() from gtest_main.cc
+[==========] Running 18 tests from 3 test cases.
+[----------] Global test environment set-up.
+[----------] 3 tests from SpeciesFixture
+[ RUN      ] SpeciesFixture.AddingInstructions1
+[       OK ] SpeciesFixture.AddingInstructions1 (28 ms)
+[ RUN      ] SpeciesFixture.AddingInstructions2
+[       OK ] SpeciesFixture.AddingInstructions2 (4 ms)
+[ RUN      ] SpeciesFixture.AddingInstructions3
+[       OK ] SpeciesFixture.AddingInstructions3 (19 ms)
+[----------] 3 tests from SpeciesFixture (59 ms total)
+
+[----------] 1 test from CreatureFixture
+[ RUN      ] CreatureFixture.CreatureConstructor1
+[       OK ] CreatureFixture.CreatureConstructor1 (18 ms)
+[----------] 1 test from CreatureFixture (18 ms total)
+
+[----------] 14 tests from DarwinFixture
+[ RUN      ] DarwinFixture.World1
+[       OK ] DarwinFixture.World1 (34 ms)
+[ RUN      ] DarwinFixture.World2
+[       OK ] DarwinFixture.World2 (4 ms)
+[ RUN      ] DarwinFixture.AddCreature1
+Turn = 0.
+  01
+0 f.
+1 ..
+
+Turn = 1.
+  01
+0 f.
+1 ..
+
+[       OK ] DarwinFixture.AddCreature1 (21 ms)
+[ RUN      ] DarwinFixture.AddCreature2
+Turn = 0.
+  01
+0 ff
+1 ff
+
+Turn = 1.
+  01
+0 ff
+1 ff
+
+[       OK ] DarwinFixture.AddCreature2 (11 ms)
+[ RUN      ] DarwinFixture.Hop1
+Turn = 0.
+  01
+0 h.
+1 ..
+
+Turn = 1.
+  01
+0 ..
+1 h.
+
+[       OK ] DarwinFixture.Hop1 (8 ms)
+[ RUN      ] DarwinFixture.Hop2
+Turn = 0.
+  01
+0 ..
+1 .h
+
+Turn = 1.
+  01
+0 .h
+1 ..
+
+[       OK ] DarwinFixture.Hop2 (7 ms)
+[ RUN      ] DarwinFixture.Hop3
+Turn = 0.
+  01
+0 ..
+1 .h
+
+Turn = 1.
+  01
+0 ..
+1 h.
+
+[       OK ] DarwinFixture.Hop3 (7 ms)
+[ RUN      ] DarwinFixture.Hop4
+Turn = 0.
+  01
+0 h.
+1 ..
+
+Turn = 1.
+  01
+0 .h
+1 ..
+
+[       OK ] DarwinFixture.Hop4 (8 ms)
+[ RUN      ] DarwinFixture.LeftHop1
+Turn = 0.
+  012
+0 ...
+1 .l.
+2 ...
+
+Turn = 1.
+  012
+0 ...
+1 ...
+2 .l.
+
+Turn = 2.
+  012
+0 ...
+1 ...
+2 .l.
+
+Turn = 3.
+  012
+0 ...
+1 ...
+2 ..l
+
+[       OK ] DarwinFixture.LeftHop1 (8 ms)
+[ RUN      ] DarwinFixture.RightHop1
+Turn = 0.
+  012
+0 ...
+1 .l.
+2 ...
+
+Turn = 1.
+  012
+0 ...
+1 ...
+2 .l.
+
+Turn = 2.
+  012
+0 ...
+1 ...
+2 .l.
+
+Turn = 3.
+  012
+0 ...
+1 ...
+2 ..l
+
+[       OK ] DarwinFixture.RightHop1 (6 ms)
+[ RUN      ] DarwinFixture.Infect1
+Turn = 0.
+  012
+0 t.h
+
+Turn = 1.
+  012
+0 th.
+
+Turn = 2.
+  012
+0 th.
+
+Turn = 3.
+  012
+0 tt.
+
+[       OK ] DarwinFixture.Infect1 (21 ms)
+[ RUN      ] DarwinFixture.IfEmpty
+Turn = 0.
+  0123
+0 ....
+1 ..c.
+2 ....
+3 ..f.
+
+Turn = 1.
+  0123
+0 ....
+1 ....
+2 ..c.
+3 ..f.
+
+Turn = 2.
+  0123
+0 ....
+1 ....
+2 ..c.
+3 ..f.
+
+Turn = 3.
+  0123
+0 ....
+1 ....
+2 ...c
+3 ..f.
+
+[       OK ] DarwinFixture.IfEmpty (12 ms)
+[ RUN      ] DarwinFixture.IfWall
+Turn = 0.
+  0123
+0 ....
+1 ....
+2 .h..
+3 ....
+
+Turn = 1.
+  0123
+0 ....
+1 ....
+2 ..h.
+3 ....
+
+Turn = 2.
+  0123
+0 ....
+1 ....
+2 ...h
+3 ....
+
+Turn = 3.
+  0123
+0 ....
+1 ....
+2 ...h
+3 ....
+
+Turn = 4.
+  0123
+0 ....
+1 ...h
+2 ....
+3 ....
+
+[       OK ] DarwinFixture.IfWall (10 ms)
+[ RUN      ] DarwinFixture.IfRand
+Turn = 0.
+  01
+0 ..
+1 .r
+
+Turn = 1.
+  01
+0 ..
+1 .r
+
+[       OK ] DarwinFixture.IfRand (8 ms)
+[----------] 14 tests from DarwinFixture (166 ms total)
+
+[----------] Global test environment tear-down
+[==========] 18 tests from 3 test cases ran. (277 ms total)
+[  PASSED  ] 18 tests.
+==139430==
+==139430== HEAP SUMMARY:
+==139430==     in use at exit: 0 bytes in 0 blocks
+==139430==   total heap usage: 781 allocs, 781 frees, 83,385 bytes allocated
+==139430==
+==139430== All heap blocks were freed -- no leaks are possible
+==139430==
+==139430== For counts of detected and suppressed errors, rerun with: -v
+==139430== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+File 'Darwin.c++'
+Lines executed:64.45% of 256
+Branches executed:77.48% of 222
+Taken at least once:56.31% of 222
+Calls executed:52.71% of 387
+Creating 'Darwin.c++.gcov'
